@@ -1,7 +1,7 @@
 {
   "name": "@hackersent/meta",
   "description": "Generate meta tags for Hackersent pages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

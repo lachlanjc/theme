@@ -10,7 +10,7 @@ const Meta = ({
   description,
   image,
   color = '#ffffff',
-  manifest = 'https://hackersent.com/static/site.webmanifest'
+  manifest = 'https://hackersent.com/site.webmanifest'
 }) => (
   <ElementType>
     <meta key="og_locale" property="og:locale" content="en_US" />
