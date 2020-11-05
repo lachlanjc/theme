@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta renders 1`] = `
+<div>
+  <meta
+    content="en_US"
+    property="og:locale"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Hackersent"
+    property="og:site_name"
+  />
+  <meta
+    content="@hackersent"
+    name="twitter:site"
+  />
+  <title>
+    Hackersent :: Learn cybersecurity
+  </title>
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    property="og:title"
+  />
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    name="twitter:title"
+  />
+  <meta
+    content="#ffffff"
+    name="theme-color"
+  />
+  <meta
+    content="#ffffff"
+    name="msapplication-TileColor"
+  />
+  <link
+    color="#24292e"
+    href="https://hackersent.com/static/favicons/safari-pinned-tab.svg"
+    rel="mask-icon"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/apple-touch-icon.png"
+    rel="apple-touch-icon"
+    sizes="180x180"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-32x32.png"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-16x16.png"
+    rel="icon"
+    sizes="16x16"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/site.webmanifest"
+    rel="manifest"
+  />
+</div>
+`;
+
+exports[`Meta renders custom color 1`] = `
+<div>
+  <meta
+    content="en_US"
+    property="og:locale"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Hackersent"
+    property="og:site_name"
+  />
+  <meta
+    content="@hackersent"
+    name="twitter:site"
+  />
+  <title>
+    Hackersent :: Learn cybersecurity
+  </title>
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    property="og:title"
+  />
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    name="twitter:title"
+  />
+  <meta
+    content="#0069ff"
+    name="theme-color"
+  />
+  <meta
+    content="#0069ff"
+    name="msapplication-TileColor"
+  />
+  <link
+    color="#24292e"
+    href="https://hackersent.com/static/favicons/safari-pinned-tab.svg"
+    rel="mask-icon"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/apple-touch-icon.png"
+    rel="apple-touch-icon"
+    sizes="180x180"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-32x32.png"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-16x16.png"
+    rel="icon"
+    sizes="16x16"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/site.webmanifest"
+    rel="manifest"
+  />
+</div>
+`;
+
+exports[`Meta renders custom title 1`] = `
+<div>
+  <meta
+    content="en_US"
+    property="og:locale"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Hackersent"
+    property="og:site_name"
+  />
+  <meta
+    content="@hackersent"
+    name="twitter:site"
+  />
+  <title>
+    Custom Title :: Hackersent
+  </title>
+  <meta
+    content="Custom Title :: Hackersent"
+    property="og:title"
+  />
+  <meta
+    content="Custom Title :: Hackersent"
+    name="twitter:title"
+  />
+  <meta
+    content="#ffffff"
+    name="theme-color"
+  />
+  <meta
+    content="#ffffff"
+    name="msapplication-TileColor"
+  />
+  <link
+    color="#24292e"
+    href="https://hackersent.com/static/favicons/safari-pinned-tab.svg"
+    rel="mask-icon"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/apple-touch-icon.png"
+    rel="apple-touch-icon"
+    sizes="180x180"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-32x32.png"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-16x16.png"
+    rel="icon"
+    sizes="16x16"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/site.webmanifest"
+    rel="manifest"
+  />
+</div>
+`;
+
+exports[`Meta renders image 1`] = `
+<div>
+  <meta
+    content="en_US"
+    property="og:locale"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Hackersent"
+    property="og:site_name"
+  />
+  <meta
+    content="@hackersent"
+    name="twitter:site"
+  />
+  <title>
+    Hackersent :: Learn cybersecurity
+  </title>
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    property="og:title"
+  />
+  <meta
+    content="Hackersent :: Learn cybersecurity"
+    name="twitter:title"
+  />
+  <meta
+    content="https://hackersent.com/static/card.jpg"
+    property="og:image"
+  />
+  <meta
+    content="summary_large_image"
+    name="twitter:card"
+  />
+  <meta
+    content="https://hackersent.com/static/card.jpg"
+    name="twitter:image"
+  />
+  <meta
+    content="#ffffff"
+    name="theme-color"
+  />
+  <meta
+    content="#ffffff"
+    name="msapplication-TileColor"
+  />
+  <link
+    color="#24292e"
+    href="https://hackersent.com/static/favicons/safari-pinned-tab.svg"
+    rel="mask-icon"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/apple-touch-icon.png"
+    rel="apple-touch-icon"
+    sizes="180x180"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-32x32.png"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/favicons/favicon-16x16.png"
+    rel="icon"
+    sizes="16x16"
+    type="image/png"
+  />
+  <link
+    href="https://hackersent.com/static/site.webmanifest"
+    rel="manifest"
+  />
+</div>
+`;

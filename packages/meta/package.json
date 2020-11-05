@@ -1,0 +1,31 @@
+{
+  "name": "@hackersent/meta",
+  "description": "Generate meta tags for Hackersent pages",
+  "version": "1.0.0",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "sideEffects": false,
+  "scripts": {
+    "prepare": "rm -rf ./dist && microbundle --jsx React.createElement",
+    "watch": "microbundle watch --jsx React.createElement --no-compress"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackersent/theme.git",
+    "directory": "packages/meta"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@testing-library/react": "^11.1.1"
+  }
+}

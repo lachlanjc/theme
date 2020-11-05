@@ -1,0 +1,25 @@
+{
+  "name": "@hackersent/theme",
+  "description": "Official Hackersent Theme UI website theme",
+  "version": "1.0.0",
+  "author": "Kyrylo Orlov <kyrylo@hackersent.com> (https://kyryloorlov.com)",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepare": "microbundle",
+    "watch": "microbundle watch --no-compress"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackersent/theme.git",
+    "directory": "packages/theme"
+  }
+}
