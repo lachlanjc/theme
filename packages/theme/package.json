@@ -1,7 +1,7 @@
 {
   "name": "@hackersent/theme",
   "description": "Official Hackersent Theme UI website theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Kyrylo Orlov <kyrylo@hackersent.com> (https://kyryloorlov.com)",
   "source": "src/index.ts",
   "main": "dist/index.js",

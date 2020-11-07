@@ -13,6 +13,7 @@ const colors = {
   snow: '#f9fafc',
   white: '#ffffff',
 
+  blupurp: '#4D61C9',
   red: '#ec3750',
   orange: '#ff8c37',
   yellow: '#f1c40f',
@@ -42,7 +43,7 @@ const theme = {
     border: colors.smoke,
     placeholder: colors.muted,
     secondary: colors.slate,
-    primary: colors.red,
+    primary: colors.blupurp,
     muted: colors.muted,
     accent: colors.blue,
     modes: {
@@ -194,21 +195,21 @@ const theme = {
   },
   buttons: {
     primary: {
+      color: 'white',
+      backgroundColor: 'primary',
       cursor: 'pointer',
       fontFamily: 'inherit',
       fontWeight: 'bold',
-      borderRadius: 'circle',
+      borderRadius: 'small',
       display: 'inline-flex',
       alignItems: 'center',
       justifyContent: 'center',
-      boxShadow: 'card',
-      letterSpacing: 'headline',
-      WebkitTapHighlightColor: 'transparent',
-      transition: 'transform .125s ease-in-out, box-shadow .125s ease-in-out',
-      ':focus,:hover': {
-        boxShadow: 'elevated',
-        transform: 'scale(1.0625)'
-      },
+      WebkitFontSmoothing: 'antialiased',
+      userSelect: 'none',
+      border: '1px solid transparent',
+      padding: '.375rem 1rem',
+      transition: 'all .1s ease-in-out',
+      ':focus,:hover': { boxShadow: 'elevated' },
       svg: { ml: -1, mr: 2 }
     },
     lg: {
