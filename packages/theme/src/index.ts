@@ -226,14 +226,25 @@ const theme = {
       border: '2px solid currentColor'
     },
     outlineLg: {
-      variant: 'buttons.primary',
-      bg: 'transparent',
-      color: 'primary',
-      border: '2px solid currentColor',
+      color: 'white',
+      backgroundColor: 'transparent',
+      cursor: 'pointer',
+      fontFamily: 'inherit',
+      fontWeight: 'bold',
+      borderRadius: '50px',
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      WebkitFontSmoothing: 'antialiased',
+      userSelect: 'none',
+      border: '1px solid #fff',
+      transition: 'all .1s ease-in-out',
+      ':focus,:hover': { backgroundColor: '#fff', color: '#17171d' },
       lineHeight: 'title',
       fontSize: 3,
-      px: 4,
-      py: 3
+      padding: '.75rem 1.25rem',
+      width: '20rem',
+      maxWidth: '100%'
     },
     cta: {
       variant: 'buttons.primary',
