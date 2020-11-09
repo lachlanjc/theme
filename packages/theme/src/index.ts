@@ -401,11 +401,11 @@ const theme = {
       borderColor: 'border'
     },
     a: {
-      color: 'primary',
-      textDecoration: 'underline',
-      textUnderlinePosition: 'under',
+      color: 'black',
+      textDecoration: 'none',
+      transition: 'all .1s ease-in-out',
       ':focus,:hover': {
-        textDecorationStyle: 'wavy'
+        color: 'primary'
       }
     },
     pre: {
