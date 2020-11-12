@@ -260,6 +260,20 @@ const theme = {
       backgroundImage: t => t.util.gx('orange', 'red')
     }
   },
+  links: {
+    nav: {
+      color: 'black',
+      textDecoration: 'none',
+      transition: 'all .1s ease-in-out',
+      ':focus,:hover': {
+        color: 'primary'
+      }
+    },
+    longText: {
+      color: 'primary',
+      textDecoration: 'underline',
+    }
+  },
   cards: {
     primary: {
       bg: 'elevated',
