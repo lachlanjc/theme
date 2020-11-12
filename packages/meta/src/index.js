@@ -10,7 +10,7 @@ const Meta = ({
   description,
   image,
   color = '#ffffff',
-  manifest = 'https://hackersent.com/site.webmanifest'
+  manifest = 'https://assets.hackersent.com/favicons/site.webmanifest'
 }) => (
   <ElementType>
     <meta key="og_locale" property="og:locale" content="en_US" />
@@ -43,28 +43,28 @@ const Meta = ({
     <link
       key="safari_icon"
       rel="mask-icon"
-      href="https://hackersent.com/static/favicons/safari-pinned-tab.svg"
+      href="https://assets.hackersent.com/favicons/safari-pinned-tab.svg"
       color="#24292e"
     />
     <link
       key="apple_icon"
       rel="apple-touch-icon"
       sizes="180x180"
-      href="https://hackersent.com/static/favicons/apple-touch-icon.png"
+      href="https://assets.hackersent.com/favicons/apple-touch-icon.png"
     />
     <link
       key="favicon_32"
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="https://hackersent.com/static/favicons/favicon-32x32.png"
+      href="https://assets.hackersent.com/favicons/favicon-32x32.png"
     />
     <link
       key="favicon_16"
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="https://hackersent.com/static/favicons/favicon-16x16.png"
+      href="https://assets.hackersent.com/favicons/favicon-16x16.png"
     />
     {manifest && <link key="manifest" rel="manifest" href={manifest} />}
   </ElementType>
