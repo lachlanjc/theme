@@ -11,3 +11,5 @@ made for [Theme UI](https://theme-ui.com).
 2. @hackersent/meta – React component for generating social tags for `<head>`
 
 <!-- [**theme.hackersent.com**](https://theme.hackersent.com) -->
+
+Inspired by [hackclub/theme](https://github.com/hackclub/theme).
